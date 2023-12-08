@@ -1,2 +1,5 @@
 # Deep-Learning-Classification
-Deepl Learning Classification project for my thesis
+Deep learning techniques are gaining popularity in many fields, including medical fields. Architectures capable of processing large data sets can learn features that were impossible before, and the detection of different diseases has become easier. In this thesis, I address a related topic, the diagnosis of cancer and healthy cells using deep learning methods.
+For cell classification, I investigate different neural network architectures, including multilayer percepton and convolutional neural networks. I investigate the effect of varying parameters, introducing class weights, and evaluate the model in terms of validation accuracy and confusion matrices.
+The architectures I investigate shows that fully connected neural networks performed less well compared to convolutional neural networks (CNN). The CNN model that performed best was the one that obtained time series in both time and frequency domains, achieving a validation accuracy of 61.75%.
+The accuracy achieved, although significant in terms of clinical practice, highlights the complexity of cancer cell classification. The multifaceted nature of cancer, characterized by heterogeneity and nuanced variations, poses challenges that are beyond the comprehension of the models I implemented.
